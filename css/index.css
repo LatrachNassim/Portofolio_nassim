@@ -30,13 +30,21 @@ header a:hover
     border-bottom:   solid #760001;
 }
 
+.nav {
+    grid-row: 1/12;
+    grid-column: 1 / 2;
+}
+
 .photo {
     float: left;
+  
+    
 }
  .presentation {
      float: right;
+    
  }
 
  body {
-     background-image : url(image/telechargemment.jpg), no-repeat;
+     background-image : url(image/telechargement.jpg), no-repeat;
  }
