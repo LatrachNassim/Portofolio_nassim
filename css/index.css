@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Muli-Black";
-    src: url("../font/static/Muli-Black.tff") format("truetype");
+    font-family: 'Muli', sans-serif;
+    src: url("../font/static/Muli.tff") format("truetype");
 }
 
 body {
@@ -51,5 +51,5 @@ nav a:hover
 }
  
 .presentation p {
-    font-family: "Muli";
+    font-family: 'Muli', sans-serif;
 }
