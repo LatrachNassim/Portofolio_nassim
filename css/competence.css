@@ -42,5 +42,19 @@ nav a:hover
     border-bottom:   solid #760001;
 }
 
+main img {
+    text-align: center;
+    display:block;
+    width:auto;
+    margin-left:auto;
+    margin-right:auto;
 
+}
+ main p {
+    text-align: center;
+    display:block;
+    width:auto;
+    margin-left:auto;
+    margin-right:auto;
+ }
 
