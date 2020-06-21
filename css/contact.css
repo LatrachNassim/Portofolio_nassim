@@ -42,6 +42,7 @@ nav a:hover
     border-bottom:   solid #760001;
 }
 
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
@@ -70,10 +71,13 @@ input[type=text], select, textarea {
   }
   
   /* Add a background color and some padding around the form */
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
+  
+
+.formulaire {
+    width: 50%;
+}
+
+
+  
 
 
