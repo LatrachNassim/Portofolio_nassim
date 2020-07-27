@@ -1,0 +1,13 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/LatrachNassim/Portofolio_nassim.git",
+  "author": "Nassim <latrach.nassim@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-util": "^3.0.8",
+    "vinyl-ftp": "^0.6.1"
+  }
+}
