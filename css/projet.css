@@ -4,7 +4,11 @@
 }
 
 body {
-    background-color : #33FF9C;
+    background-color : #007fff;
+}
+
+.nav-bar {
+  color: #ffcf35;
 }
 
 nav
@@ -85,7 +89,7 @@ nav a:hover
 
 /* Caption text */
 .text {
-  color: black;
+  color: #ffcf35;
   font-size: 25px;
   padding: 8px 12px;
   position: absolute;
@@ -124,7 +128,7 @@ nav a:hover
 }
 
 .text {
-  color: white;
+  color: #4fc031;;
 }
 
 * {
@@ -143,6 +147,10 @@ nav a:hover
   content: "";
   display: table;
   clear: both;
+}
+
+p {
+  color: #4fc031;
 }
 
 /* On screens that are 992px wide or less, go from four columns to two columns */

@@ -35,7 +35,7 @@
         <article class="formulaire">
             <form action="https://formspree.io/FORM_ID" method="POST">
                 <label>
-                    Nom Prénom:
+                    Nom:
                     <input type="text" name="name"></label>
                 <label>
                     Adresse mail: <br>
@@ -48,6 +48,21 @@
                 <input type="submit" value="Envoyer">
             </form>
             
+        </article>
+
+        <article>
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/YOUR_EMAIL_HERE" method="post">
+                <fieldset id="fs-frm-inputs">Nom
+                  <label for="full-name"></label>
+                  <input type="text" name="name" id="full-name" required="">
+                  <label for="email-address">Adresse mail</label>
+                  <input type="email" name="_replyto" id="email-address" required="">
+                  <label for="message">Message</label>
+                  <textarea rows="5" name="message" id="message" required=""></textarea>
+                  <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                </fieldset>
+                <input type="submit" value="Submit">
+              </form>
         </article>
     </main>
 

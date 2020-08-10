@@ -4,7 +4,11 @@
 }
 
 body {
-    background-color : #33FF9C;
+    background-color : #007fff;
+}
+
+nav-bar {
+    color: #ffcf35;
 }
 
 nav
@@ -57,4 +61,6 @@ main img {
     margin-left:auto;
     margin-right:auto;
  }
-
+ main img {
+     color: #ffcf35;
+ }

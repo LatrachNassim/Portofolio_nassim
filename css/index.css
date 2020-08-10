@@ -4,7 +4,11 @@
 }
 
 body {
-    background-color : #33FF9C;
+    background-color : #007fff;
+}
+
+nav-bar {
+    color: #ffcf35;
 }
 
 nav
@@ -53,4 +57,5 @@ nav a:hover
 .presentation p {
     font-family: 'Muli', sans-serif;
     text-align: center;
+    color: #ffcf35;
 }
