@@ -46,6 +46,10 @@ nav a:hover
     border-bottom:   solid #760001;
 }
 
+iframe {
+    width: 50%;
+}
+
 
 /* Style inputs with type="text", select elements and textareas */
     input[type=text], select, textarea {

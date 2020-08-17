@@ -7,9 +7,7 @@ body {
     background-color : #007fff;
 }
 
-.nav-bar {
-  color: #ffcf35;
-}
+
 
 nav
 {
@@ -128,17 +126,16 @@ nav a:hover
 }
 
 .text {
-  color: #4fc031;;
+  color: #ffcf35;;
 }
-
+#ffcf35
 * {
   box-sizing: border-box;
 }
 
 /* Create four equal columns that floats next to each other */
 .column {
-  float: left;
-  width: 25%;
+  width: auto;
   padding: 20px;
 }
 
@@ -150,23 +147,31 @@ nav a:hover
 }
 
 p {
-  color: #4fc031;
+  color: #ffcf35;
 }
 
 /* On screens that are 992px wide or less, go from four columns to two columns */
 @media screen and (max-width: 992px) {
   .row {
     width: 100%;
-    display: none;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 
   }
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .slideshow-container, .dot {
     width: 100%;
-    /*cache le slider pour les écran de moins de 600px*/
+    /*cache le slider pour les écran de moins de 900px*/
+    display: none;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .row {
     display: none;
   }
 }
