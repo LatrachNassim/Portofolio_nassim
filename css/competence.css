@@ -7,15 +7,13 @@ body {
     background-color : #007fff;
 }
 
-nav-bar {
-    color: #ffcf35;
-}
 
 nav
 {
     display: inline-block;
     text-align: center;
     width: 100%;
+    color: #d9603b;
 }
 
 nav ul
