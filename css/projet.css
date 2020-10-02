@@ -3,8 +3,13 @@
     src: url("../font/static/Muli.tff") format("truetype");
 }
 
+@font-face{
+  font-family: 'NotoSans', sans-serif;
+  src: url("../font/NotoSans-Bold.ttf") format("truetype");
+}
+
 body {
-    background-color : #007fff;
+    background-color : #005c96;
 }
 
 
@@ -14,7 +19,7 @@ nav
     display: inline-block;
     text-align: center;
     width: 100%;
-    color: #d9603b;
+    
 }
 
 nav ul
@@ -33,16 +38,18 @@ nav li
 
 nav a
 {
+    font-family: "NotoSans", sans-serif;
+    font-weight: bold;
     font-size: 1.3em;
-    color: #181818;
+    color:  #4b0082;
     padding-bottom: 3px;
     text-decoration: none;
 }
 
 nav a:hover
 {
-    color: #7c4b28;
-    border-bottom:   solid #760001;
+    color: #e0cda9;
+    border-bottom:   solid #e0cda9;
 }
 
 * {box-sizing:border-box}
@@ -88,7 +95,7 @@ nav a:hover
 
 /* Caption text */
 .text {
-  color: #ffcf35;
+  color: #deb887;
   font-size: 25px;
   padding: 8px 12px;
   position: absolute;
@@ -127,7 +134,7 @@ nav a:hover
 }
 
 .text {
-  color: #ffcf35;;
+  color: #deb887;
 }
 #ffcf35
 * {
@@ -148,7 +155,7 @@ nav a:hover
 }
 
 p {
-  color: #ffcf35;
+  color: #deb887;
 }
 
 /* On screens that are 992px wide or less, go from four columns to two columns */

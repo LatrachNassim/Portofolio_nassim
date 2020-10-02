@@ -3,8 +3,13 @@
     src: url("../font/static/Muli.tff") format("truetype");
 }
 
+@font-face{
+    font-family: 'NotoSans', sans-serif;
+    src: url("../font/NotoSans-Bold.ttf") format("truetype");
+}
+
 body {
-    background-color : #007fff;
+    background-color : #005c96;
 }
 
 
@@ -13,7 +18,7 @@ nav
     display: inline-block;
     text-align: center;
     width: 100%;
-    color: #d9603b;
+    
 }
 
 nav ul
@@ -32,16 +37,18 @@ nav li
 
 nav a
 {
+    font-family: "NotoSans", sans-serif;
+    font-weight: bold;
     font-size: 1.3em;
-    color: #181818;
+    color: #4b0082;
     padding-bottom: 3px;
     text-decoration: none;
 }
 
 nav a:hover
 {
-    color: #7c4b28;
-    border-bottom:   solid #760001;
+    color: #e0cda9;
+    border-bottom:   solid #e0cda9;
 }
 
 main img {
@@ -59,6 +66,5 @@ main img {
     margin-left:auto;
     margin-right:auto;
  }
- main img {
-     color: #ffcf35;
- }
+ 
+ 
